@@ -14,4 +14,3 @@ func Setup(s setup, td teardown, t *testing.T) func(t *testing.T) {
 		td()
 	}
 }
-
